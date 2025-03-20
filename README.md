@@ -41,27 +41,6 @@ The project explores how these classification algorithms perform under different
 - **ROC-AUC Curve for Model Performance Comparison**
 ---
 
-## 🚀 How to Run
-### **1️⃣ Install Required Packages**
-Make sure you have the required Python packages installed:
-```bash
-pip install numpy pandas matplotlib scikit-learn seaborn
-```
-
-### **2️⃣ Run Jupyter Notebook**
-Open and execute the notebook:
-```bash
-jupyter notebook classification_models.ipynb
-```
-
-### **3️⃣ Run Python Scripts**
-To compare different classifiers:
-```bash
-python model_comparison.py
-```
-
----
-
 ## 📈 Key Findings
 - **Logistic Regression performs well for linearly separable data**, but struggles with non-linear patterns.
 - **SVM with RBF kernel outperforms logistic regression** on complex datasets.
